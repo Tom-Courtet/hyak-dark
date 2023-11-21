@@ -217,3 +217,39 @@ body.dark-mode .general-count-down-anime{
 body.dark-mode h3.general-informations-item-title, body.dark-mode .general-title-bloc{
   color: #7e98e3;
 }
+
+/* ------------- */
+/* L'équipe Hyak */
+/* ------------- */
+
+body.dark-mode .banner-top{
+  background: #1c2b50;
+}
+
+body.dark-mode .equipe-name{
+  color: #7e98e3;
+}
+
+body.dark-mode .equipe-post{
+  color: #636d93;
+}
+
+/* ---------------- */
+/* Mentions légales */
+/* ---------------- */
+
+body.dark-mode b, body.dark-mode strong{
+  color: #8da3ff;
+}
+
+body.dark-mode p{
+  color: #7e98e3;
+}
+
+body.dark-mode h2, h3{
+  color: #636d93;
+}
+
+body.dark-mode li{
+  color: #7e98e3;
+}
