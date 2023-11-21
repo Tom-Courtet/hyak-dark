@@ -188,3 +188,32 @@ body.dark-mode .planning-item-time{
 /* Fiche Anime */
 /* ----------- */
 
+body.dark-mode .anime-white-informations{
+  background-color: #1f2a3d;
+}
+
+body.dark-mode h1.anime-title{
+  color: whitesmoke;
+}
+
+body.dark-mode .anime-synopsis{
+  color: whitesmoke;
+}
+
+body.dark-mode .general-white-button, body.dark-mode div.general-white-informations, 
+body.dark-mode .general-white-button-website, body.dark-mode .general-white-button-twitter, 
+body.dark-mode .general-dif-logo, body.dark-mode .general-infos-white, body.dark-mode .general-status-white{
+  background: #1f2a3d;
+}
+
+body.dark-mode .general-informations-item-info, body.dark-mode .general-informations-item-info a, 
+body.dark-mode .general-white-button-logo, body.dark-mode .general-white-button-title, 
+body.dark-mode .general-video-title, body.dark-mode .general-white-button-website-title, 
+body.dark-mode .general-white-button-twitter-title, body.dark-mode .general-little-title-episode,
+body.dark-mode .general-count-down-anime{
+  color: #636d93;
+}
+
+body.dark-mode h3.general-informations-item-title, body.dark-mode .general-title-bloc{
+  color: #7e98e3;
+}
