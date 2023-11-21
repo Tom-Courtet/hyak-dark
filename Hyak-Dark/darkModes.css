@@ -1,0 +1,190 @@
+/* dark-mode.css */
+/* @author : ONIIRIQUE */
+
+
+/* ------- */
+/* General */
+/* ------- */
+
+body.dark-mode {
+    background-color: #0f172a;
+  }
+
+body.dark-mode::-webkit-scrollbar{
+  background-color: #1c2b50;
+}
+
+body.dark-mode::-webkit-scrollbar-thumb{
+  background-color: #636d92;
+}
+
+body.dark-mode footer{
+  background-color: #1c2b50;
+}
+
+body.dark-mode > #root > footer > div a{
+  color: #7e98e3;
+}
+body.dark-mode > #root > footer > div  h5{
+  color: #7e98e3;
+}
+
+/* ------- */
+/* Accueil */
+/* ------- */
+
+body.dark-mode .home-listing-title{
+  color: #636d93;
+}
+
+body.dark-mode .articles-titre{
+  color: #636d93;
+}
+
+body.dark-mode .articles-date{
+  color: #636d93;
+}
+
+
+body.dark-mode .home70 .home-listing-more{
+  border: 1px solid #636d92;
+}
+
+/* ---------- */
+/* Rechercher */
+/* ---------- */
+
+body.dark-mode input.search-bar__input{
+  background-color: #1c2b50;
+  border: 1px solid #636d92;
+  color: #7e98e3;
+}
+
+body.dark-mode input.search-bar__input::placeholder{
+  color: #7e98e3;
+}
+
+body.dark-mode .search_filter .dropdown{
+  background-color: #1c2b50;
+  border: 1px solid #636d92;
+}
+
+ body.dark-mode span.dropdown__value{
+  color: #7e98e3;
+}
+/* ------------ */
+/* Bibliothèque */
+/* ------------ */
+
+body.dark-mode .user-navigation{
+  background-color: #1c2b50;
+}
+
+body.dark-mode input.input-text{
+  background-color: #1c2b50;
+  border: 1px solid #636d92;
+}
+
+body.dark-mode input.input-text::placeholder{
+  color: #7e98e3;
+}
+
+body.dark-mode .library-filter__statut-item--active{
+  background-color: #1c2b50;
+  border: 1px solid #636d92;
+  color: #7e98e3;
+}
+
+body.dark-mode .switch-display{
+  background-color: #1c2b50;
+  border: 1px solid #636d92;
+}
+
+body.dark-mode .library-anime-list{
+  background-color: #0a0f1c;
+}
+
+body.dark-mode .library-anime-list p, body.dark-mode .library-anime-list p a{
+  color: #7e98e3;
+}
+
+body.dark-mode .library-anime-card__informations p{
+  color: #7e98e3;
+}
+
+body.dark-mode .library-anime-card__informations {
+  background-color: #1c2b50;
+}
+
+
+/* ------------ */
+/* Vue générale */
+/* ------------ */
+
+body.dark-mode .anime-stats{
+  background-color: #1c2b50;
+}
+
+body.dark-mode .anime-stats .anime-stats__status{
+  color: #7e98e3;
+}
+
+/* ------ */
+/* Social */
+/* ------ */
+
+body.dark-mode .vertical-menu__content{
+  background-color: #1c2b50;
+}
+
+body.dark-mode span.vertical-menu__tab span{
+  color: #7e98e3;
+}
+
+body.dark-mode span.vertical-menu__tab--active{
+  background-color: #1c2b50;
+}
+
+
+/* ------ */
+/* Agenda */
+/* ------ */
+
+body.dark-mode .planning-banner{
+  background-color: #293f76;
+}
+
+body.dark-mode .planning-body{
+  background-color: #1c2b50;
+
+}
+
+body.dark-mode .planning-column{
+  border-right: 1px solid #5e5e5e
+}
+
+body.dark-mode h5.planning-title-day{
+  background-color: #636d92;
+  border-right: 1px solid #7c89b8;;
+}
+
+body.dark-mode .planning-item-info{
+  background-color: #36539c;
+}
+
+body.dark-mode .planning-item-title{
+  color: #cccccc
+}
+
+body.dark-mode .planning-item-episode{
+  color: #8da3ff
+}
+
+body.dark-mode .planning-item-time{
+  color: #8da3ff
+}
+
+/* ----------- */
+/* Fiche Anime */
+/* ----------- */
+

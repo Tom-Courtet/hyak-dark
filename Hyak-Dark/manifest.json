@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Hyak-Dark",
+    "version": "1.0",
+    "description": "Te permet d'avoir un mode sombre sur Hyakanime !",
+    "permissions": ["storage", "activeTab"],
+    "browser_action": {
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.hyakanime.fr/*"],
+        "css": ["darkModes.css"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
+  

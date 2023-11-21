@@ -1,0 +1,23 @@
+body{
+    background: none;
+}
+
+
+.dark-mode-button {
+    background: #94a3b8;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 38px;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    transition: .2s;
+    user-select: none;
+}
