@@ -253,3 +253,33 @@ body.dark-mode h2, h3{
 body.dark-mode li{
   color: #7e98e3;
 }
+
+/* ------- */
+/* Edition */
+/* ------- */
+
+body.dark-mode .edit-banner-top{
+  background: #1c2b50;
+}
+
+body.dark-mode .edit-menu-item span, body.dark-mode .edit-label, body.dark-mode h5.title-section{
+  color: #7e98e3;
+}
+
+body.dark-mode .edit-menu-selected{
+  background: #1c2b50;
+}
+
+body.dark-mode .edit-body-case, body.dark-mode .edit-textarea{
+  background: #1c2b50;
+}
+
+body.dark-mode .edit-textarea, body.dark-mode .css-qc6sy-singleValue, body.dark-mode .css-14el2xx-placeholder{
+  color: #cccccc;
+}
+
+body.dark-mode input.edit-input, body.dark-mode .css-1s2u09g-control{
+  background-color: #293f76;
+  border: 1px solid #636d92;
+  color: #cccccc;
+}

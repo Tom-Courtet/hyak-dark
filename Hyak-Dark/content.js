@@ -21,32 +21,32 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 });
 
 function modifierStyles(darkModeState) {
-  console.log("modifierStyles Debut ---");
   if (darkModeState===true){
     var tday = '#8da3ff';
     var days = 'black';
+    var editBackground = '#0f172a';
   } else {
     var tday = '#0185ff';
     var days = '#2f2f2f';
-  } 
-  console.log("days1 : " + days);
+    var editBackground = '#eef5ff';
+  }
   var elements = document.querySelectorAll('.planning-title-day');
+  var editDiv = document.querySelector('#root > div:nth-child(3)');
 
   var jourActuel = new Date().toLocaleDateString('fr-FR', { weekday: 'long' });
-
+  editDiv.style.background = editBackground;
   elements.forEach(function(element) {
     // Récupérer la valeur dans la balise
     var valeurDansBalise = element.textContent.trim();
 
     // Définir une couleur par défaut pour tous les jours
     element.style.color = days;
-    console.log(element.style.color);
+    
+    
 
     // Si le jour correspond au jour actuel, changer la couleur
     if (valeurDansBalise.toLowerCase() === jourActuel) {
-      element.style.color = tday;
-      console.log("test2")
-      console.log(element.style.color); // Vous pouvez choisir une autre couleur
+      element.style.color = tday; // Vous pouvez choisir une autre couleur
     }
   });
 }
